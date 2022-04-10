@@ -3,6 +3,8 @@ import Footer from './components/Footer/'
 import Header from './components/Header/'
 import Banner from './components/Banner/'
 import Categories from './components/Categories/'
+import Brands from './components/Brands/'
+import TrendingProducts from './components/TrendingProducts/'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Banner />
       <Categories />
+      <Brands />
+      <TrendingProducts />
       <Footer />
     </div>
     );

@@ -1,0 +1,27 @@
+.firms__wrapper {
+	margin-top: 42px;
+	margin-bottom: 42px;
+	.firms__container {
+		border: 1px solid #E3E9EF;
+		box-sizing: border-box;
+		border-radius: 16px;
+		display: flex;
+		overflow-x: scroll;
+		overflow-y: hidden;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		.firms__item {
+			width: 171.82px;
+			height: 90px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			img	{
+
+			}
+		}
+	}
+}
