@@ -1,0 +1,96 @@
+.blog {
+	padding: 0 15px;
+	margin-top: 42px;
+	margin-bottom: 42px;
+	.blog__container {
+		.blog__title {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			&__item {
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 33px;
+				color: #1F1E2E;
+			}
+			a {
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 13px;
+				line-height: 18px;
+				display: flex;
+				align-items: center;
+				column-gap: 7px;
+				color: #4B566B;
+				text-decoration: none;
+				img {
+
+				}
+			}
+		}
+		.blogs__container {
+			margin-top: 28px;
+			background: #FFFFFF;
+			border: 1px solid #E3E9EF;
+			border-radius: 16px;
+			padding: 16px;
+			display: flex;
+			column-gap: 16px;
+			justify-content: space-between;
+			.blogs__item {
+				width: 148px;
+				&__img {
+					width: 100%;
+					height: 88px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				&__date {
+					display: flex;
+					justify-content: space-between;
+					align-items:center;
+					margin-top: 7px;
+					margin-bottom: 8px;
+					.username {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 10px;
+						line-height: 20px;
+						color: #7D879C;
+					}
+					.vertical__line {
+						border: 1px solid rgba(227, 233, 239, 1);
+						background: rgba(227, 233, 239, 1);
+						height: 16px;
+					}
+					.date {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 10px;
+						line-height: 20px;
+						color: #7D879C;
+
+					}
+				}
+				&__content {
+					p {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 600;
+						font-size: 14px;
+						line-height: 19px;
+
+						color: #1F1E2E;
+					}
+				}
+			}
+		}
+	}
+}

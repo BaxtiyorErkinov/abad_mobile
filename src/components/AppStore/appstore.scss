@@ -1,0 +1,185 @@
+.appstore {
+	padding: 0 15px;
+	.appstore__container {
+		background: #F3F6F9;
+		border-radius: 16px;
+		padding-bottom: 3px;
+		.appstore__title {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			h1 {
+				margin-top: 36px;
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 30px;
+				color: #1F1E2E;
+			}
+			p {
+				margin-top: 14px;
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 16px;
+				color: #4B566B;
+			}
+		}
+		.platforms__btn {
+			display: flex;
+			justify-content: center;
+			column-gap: 8px;
+			margin-top: 28px;
+
+			.apple {
+				width: 105px;
+				height: 36px;
+				background: #1F1E2E;
+				border-radius: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				column-gap: 6px;
+				img {}
+				.text {
+					&__1 {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 8px;
+						line-height: 11px;
+						color: #fff;
+					}
+					&__2 {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 16px;
+						color: #fff;
+
+					}
+				}
+			}
+			.google {
+				width: 105px;
+				height: 36px;
+				background: #1F1E2E;
+				border-radius: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				column-gap: 6px;
+				img {}
+				.text {
+					&__1 {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 8px;
+						line-height: 11px;
+						color: #fff;
+					}
+					&__2 {
+						font-family: 'Open Sans';
+						font-style: normal;
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 16px;
+						color: #fff;
+
+					}
+				}
+
+			}
+		}
+		.phones {
+			margin-top: 36px;
+			display: flex;
+			justify-content: center;
+			column-gap: 24px;
+			&__item {
+				width: 134px;
+				background: #FFFFFF;
+				border: 5px solid #FFFFFF;
+				box-sizing: border-box;
+				border-radius: 25px 25px 0px 0px;
+				.header {
+					display: flex;
+					justify-content: space-between;
+					align-items:center;
+					padding: 5px 11px 5px 11px;
+					img {
+
+					}
+					.icon {	
+						color: red;
+					}
+				}
+				.main {
+					background: #F6F9FC;
+					overflow-x: hidden;
+					.banner {
+						display: flex;
+						justify-content: center;
+						padding: 6px 0;
+						img {
+
+						}
+					}
+					.scroll__section {
+						width: 100%;
+						margin-top: 8px;
+						margin-bottom: 8px;
+						display: flex;
+						// justify-content: center;
+						flex-wrap: nowrap;
+						column-gap: 8px;
+						overflow: hidden;
+						padding-left:6px;
+						.item {
+						
+							min-width: 76px;
+							height: 36px;
+							background: #FBEDED;
+							border-radius: 8px;
+						}
+					}
+				}
+				.phone__category {
+					padding: 6px 6px;
+					&__title {
+					display: flex;
+					justify-content: space-between;
+					align-items:center;
+						&__item {
+							font-family: 'Open Sans';
+							font-style: normal;
+							font-weight: 600;
+							font-size: 8px;
+							line-height: 11px;
+							color: #1F1E2E;
+						}
+						&__link {
+							font-family: 'Open Sans';
+							font-style: normal;
+							font-weight: 400;
+							font-size: 4px;
+							line-height: 5px;
+							display: flex;
+							align-items: center;
+							column-gap: 2px;
+							img {
+								
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+}

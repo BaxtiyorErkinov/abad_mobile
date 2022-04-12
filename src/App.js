@@ -9,6 +9,8 @@ import TrendingProducts from './components/TrendingProducts/';
 import Carousel from './components/ProductsCarousel/';
 import CarouselItem from './components/ProductsCarousel/CarouselItem';
 import YouTube from './components/YouTube/'
+import AppStore from './components/AppStore/'
+import Blog from './components/Blog/'
 
 function App() {
   const [bestSellersPage, setBestSellersPage] = useState(1);
@@ -46,6 +48,8 @@ function App() {
           )) }
       </Carousel>
       <YouTube />
+      <AppStore />
+      <Blog />
       <Footer />
     </div>
     );
